@@ -1,0 +1,20 @@
+{
+  "name": "xgpu-website",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "xgpu-samples": "file:../xgpu-samples/xgpu-samples-1.0.0.tgz"
+  }
+}
